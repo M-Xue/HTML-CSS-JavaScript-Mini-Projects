@@ -1,0 +1,83 @@
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    margin: 80px;
+    width: min(1100px, 90%);
+    /* width: 80%; */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links > ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 30px;
+    color: hsl(229, 31%, 21%);
+    letter-spacing: 1.5px;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: hsl(0, 94%, 66%);
+}
+
+.login-link {
+    text-decoration: none;
+    color: #FFF;
+    background-color: hsl(0, 94%, 66%);
+    padding: 15px 40px;
+    margin: 10px;
+    border-radius: 5px;
+    letter-spacing: 1.5px;
+    border: #fff 2px solid;
+    transition: 0.5s;
+}
+
+.login-link:hover {
+    color: hsl(0, 94%, 66%);
+    background-color: #fff;
+    border: hsl(0, 94%, 66%) 2px solid;
+}
+
+
+
+main {
+    width: min(1100px, 90%);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.download-container {
+    display: flex;
+    width: min(1500px, 90%);
+    justify-content: space-between;
+    width: 100%;
+    margin: 90px 0;
+}
+
+.download-container-content > h1 {
+    font-weight: 500;
+    font-size: 35px;
+    margin: 30px 0;
+}
+
+.download-container-content > p {
+    color: hsl(229, 8%, 60%);
+    font-size: 18px;
+    margin: 30px 0;
+}
+
